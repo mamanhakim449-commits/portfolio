@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Pelajar | Rahman Hakim Rohail Ghany</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #f5f7fa; color: #333; line-height: 1.6; }
+    header { background: #1e293b; color: #fff; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.3rem; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+
+    nav { background: #020617; padding: 10px 0; }
+    nav ul { display: flex; justify-content: center; list-style: none; }
+    nav ul li { margin: 0 15px; }
+    nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+    nav ul li a:hover { text-decoration: underline; }
+
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    section h2 { text-align: center; margin-bottom: 40px; color: #0f172a; }
+
+    .about { display: grid; grid-template-columns: 1fr 2fr; gap: 30px; align-items: center; }
+    .about img { width: 100%; border-radius: 12px; }
+
+    .skills, .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+
+    /* Galeri Grid */
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .gallery-item { background:#fff; border-radius:12px; overflow:hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+    .gallery-item img { width:100%; height:100%; object-fit:cover; display:block; }
+    .gallery-item p { padding:12px; font-size:0.95rem; }
+
+    .card { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+    .card h3 { margin-bottom: 10px; color: #020617; }
+
+    .contact { text-align: center; }
+    .contact p { margin-bottom: 10px; }
+
+    footer { background: #020617; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+
+    @media(max-width: 768px) {
+      .about { grid-template-columns: 1fr; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rahman Hakim Rohail Ghany</h1>
+    <p>Pelajar SMK | Jurusan Desain Komunikasi Visual (DKV)</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Tentang Saya</a></li>
+      <li><a href="#education">Pendidikan</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <div class="about">
+      <img src="https://via.placeholder.com/400x400" alt="Foto Pelajar DKV">
+      <p>
+        Saya adalah pelajar SMK jurusan <strong>Desain Komunikasi Visual (DKV)</strong> yang memiliki minat pada desain grafis,
+        fotografi, dan videografi. Saya terbiasa membuat karya visual seperti poster, konten media sosial, serta dokumentasi
+        kegiatan menggunakan berbagai aplikasi desain.
+      </p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Pendidikan</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>SMK An Nurmaniyah</h3>
+        <p>
+          Jurusan: <strong>Desain Komunikasi Visual (DKV)</strong><br>
+          Tahun Masuk: <strong>2023 – 2026</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="internship">
+    <h2>Pengalaman Magang & PKL</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>PT Desalite Tirtamas Teknologi</h3>
+        <p>
+          Posisi: <strong>Magang Desain / Multimedia</strong><br>
+          Durasi: <strong>2 Bulan</strong><br><br>
+          Terlibat dalam pembuatan desain visual, dokumentasi foto dan video, serta membantu kebutuhan konten visual perusahaan.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Universitas Mercu Buana</h3>
+        <p>
+          Posisi: <strong>PKL – Fotografer</strong><br><br>
+          Bertugas sebagai fotografer untuk dokumentasi kegiatan kampus, acara resmi, dan aktivitas akademik.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="organization">
+    <h2>Pengalaman Organisasi</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>OSIS (Organisasi Siswa Intra Sekolah)</h3>
+        <p>
+          Jabatan: <strong>PDD / Tim Media Sosial</strong><br>
+          Durasi: <strong>2 Tahun</strong><br><br>
+          Bertanggung jawab dalam pembuatan konten media sosial, dokumentasi foto dan video kegiatan sekolah, serta desain poster dan publikasi informasi organisasi.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Keahlian</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Desain Poster</h3>
+        <p>Membuat poster kreatif untuk kegiatan sekolah, promosi, dan media sosial.</p>
+      </div>
+      <div class="card">
+        <h3>Fotografi</h3>
+        <p>Pengambilan foto produk, kegiatan, dan dokumentasi dengan komposisi yang baik.</p>
+      </div>
+      <div class="card">
+        <h3>Videografi</h3>
+        <p>Pengambilan dan pengeditan video sederhana untuk dokumentasi dan konten kreatif.</p>
+      </div>
+      <div class="card">
+        <h3>Adobe Photoshop</h3>
+        <p>Menguasai dasar hingga menengah pengolahan gambar dan desain grafis.</p>
+      </div>
+      <div class="card">
+        <h3>Adobe Illustrator</h3>
+        <p>Membuat desain vektor seperti logo, poster, dan ilustrasi.</p>
+      </div>
+      <div class="card">
+        <h3>Canva</h3>
+        <p>Membuat desain cepat dan menarik untuk presentasi dan media sosial.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Hasil Desain / Karya DKV</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Poster Event – Yapera Cup</h3>
+        <img src="YAPERA CUP (3.5 x 1.3 cm).png" alt="Poster Yapera Cup" style="width:100%; border-radius:10px; margin-top:10px;">
+        <p>Desain poster event olahraga sekolah dengan konsep panggung dan sponsor.</p>
+      </div>
+      <div class="card">
+        <h3>Poster Hari Raya Idul Fitri</h3>
+        <img src="Poster idul Fitri _20250330_170913_0000.png" alt="Poster Idul Fitri" style="width:100%; border-radius:10px; margin-top:10px;">
+        <p>Desain ucapan Idul Fitri OSIS dengan nuansa islami dan warna hijau emas.</p>
+      </div>
+      <div class="card">
+        <h3>Poster Kegiatan – Yapera Idol</h3>
+        <img src="yapera idol_20250706_185125_0000.png" alt="Poster Yapera Idol" style="width:100%; border-radius:10px; margin-top:10px;">
+        <p>Desain poster kegiatan seni dan hiburan sekolah dengan konsep kreatif.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Galeri Karya</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="YAPERA CUP (3.5 x 1.3 cm).png" alt="Poster Yapera Cup">
+        <p>Poster Event Yapera Cup</p>
+      </div>
+      <div class="gallery-item">
+        <img src="Poster idul Fitri _20250330_170913_0000.png" alt="Poster Idul Fitri">
+        <p>Poster Ucapan Idul Fitri</p>
+      </div>
+      <div class="gallery-item">
+        <img src="yapera idol_20250706_185125_0000.png" alt="Poster Yapera Idol">
+        <p>Poster Kegiatan Yapera Idol</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <div class="contact">
+      <p>Email: <strong>hakimrahman574@gmail.com</strong></p>
+      <p>WhatsApp: <strong>089677535501</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Portofolio Pelajar | Rahman Hakim Rohail Ghany</p>
+  </footer>
+
+</body>
+</html>
